@@ -1,0 +1,120 @@
+#landing{
+    background-image: url('Genvison24 Poster_1.png');
+    height: 980px;
+    width: 100%;
+
+}
+
+
+/* For width 400px and larger: */
+@media only screen and (min-device-width: 500px) {
+    #landing {
+      background-image: url('Adrija Ray Landing Page Banner GENVISION 2023.png');
+    }
+  }
+
+div.container-fluid {
+  background-color: #243757;
+}
+
+.white-font-color {
+  color: whitesmoke;
+  /*text-align: justify;*/
+}
+
+#about{
+  padding: 70px;
+}
+
+#about1{
+  padding: 70px;
+}
+
+
+#desc{
+  font-size: 25px;
+}
+
+hr.solid {
+  border-top: 3px solid #415470;
+}
+/* 
+#banner{
+  padding-left: 500px
+} */
+
+.event-section-header{
+  text-align: center;
+  padding-top: 15px;
+  text-decoration-line: underline;
+  text-underline-offset: 8px;
+  text-decoration-color: whitesmoke;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+.navbar-brand img {
+  height: 40px;
+  width: 40px;
+  /* put value of image height as your need */
+  float:left;
+  
+}
+
+#embed{
+  justify-content: center;
+}
+
+
+hr.new4 {
+  border: 3px solid #415470;
+
+}
+
+.custom-navbar-bg {
+  background-color: #e2eaf3;
+}
+
+.custom-navbar-height {
+  height: 50px;
+}
